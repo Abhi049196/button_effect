@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebeef1;
+    
+}
+
+button{
+    margin-right: 10px;
+    font-weight: 500px;
+    font-size: 30px;    
+    padding: 15px;
+    width: 300px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    color: green;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),-10px -10px 10px -10px rgba(255, 255, 255, 0.70);
+    
+}
+button.reject{    
+    color: #c00a0a;    
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px -10px rgba(255, 255, 255, 0.70);
+    
+}
+button:hover{
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px -10px rgba(255, 255, 255, 0.70);
+           
+}
+button.reject:hover{
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),-10px -10px 10px -10px rgba(255, 255, 255, 0.70);
+    
+        
+}
